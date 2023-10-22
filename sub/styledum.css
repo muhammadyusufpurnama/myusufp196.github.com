@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .navbar-brand:hover{
+    color: black;
+  }
+  .nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+  }
+  .nav-link:hover{
+    color: black;
+  }
+  .search{
+    height: 40px;
+    width: 80px;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -15px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid #19a7ce;
+  }
+  .btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: #19a7ce;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+  }
+  body::before {
+      display: block;
+      content: '';
+      height: 60px;
+    }
+    @media (min-width: 768px) {
+        .news-input {
+          width: 50%;
+        }
+      }
+    .navbar{
+        background-color : #f6f1f1;
+    }
+    .main{
+        background-color : #afd3e2;;
+    }
+    .main h1{
+        color: aliceblue;
+        font-size:2cm;
+    }
+    .btn1{
+      height: 45px;
+      width: 35%;
+      border: none;
+      outline: none;
+      background-color: #146c94;
+      color: white;
+      font-weight: 700;
+      border-radius: 60px;
+    }
+    .btn1:hover{
+      background-color: #19a7ce;
+      transition: 0.5s;
+    }
+    h1{
+      font-weight: 700;
+    }
+    .news{
+      background-color: #f6f1f1;
+      color: black;
+    }
+    .btn2{
+      height: 45px;
+      width: 100px;
+      background: #f6f1f1;
+      margin-left: -10px;
+      border: 2px solid white;
+      font-weight: 600;
+    }
+.main h1{
+    color: aliceblue;
+    font-size:2cm;
+}
+.news{
+  background-color: rgb(195, 228, 255);
+  color: black;
+}
+.btn2{
+  height: 45px;
+  width: 100px;
+  background: white;
+  margin-left: -10px;
+  border: 2px solid white;
+  font-weight: 600;
+}
+.news input{
+  height: 45px;
+  width: 55%;
+  border: 2px solid white;
+  outline: none;
+  background: black ;
+  color:white;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.news ::placeholder{
+  color: white;
+}
+.news p{
+  margin: 0;
+  font-size: 1rem;
+}
+.fab{
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding-right: 5px;
+}
+.login-container{
+    background: url(imgdum/1-removebg-preview.png);
+}
+.login-button-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.login-button-form .login-button{
+    font-size: 24px;
+    padding: 14px 38px;
+    color: #666;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.login-button-form .login-button:hover{
+    color: #ffffff;
+    background: rgb(195, 228, 255);
+}
+
+.login-form{
+    border: 1px solid #333;
+    z-index: 10000;
+    background: url(imgdum/1-removebg-preview.png);
+    box-shadow: 0px 8px 20px rgba(255,255,255,0.9);
+    width: 400px;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+.login-form .login-container{
+    background: #ffffff;
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    animation: animate 0.6s;
+}
+
+@keyframes animate{
+    from{transform: scale(0);}
+    to{transform: scale(1);}
+}
+
+.login-form .login-container .img-container{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.login-form .login-container img{
+    width: 40%;
+    border-radius: 50%;
+    
+}
+
+.login-form .login-container .close{
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    font-size: 30px;
+    color: rgb(195, 228, 255);
+    cursor: pointer;
+}
+
+.login-form .container label{
+    display: block;
+    margin-top: 8px;
+    font-size: 17px;
+    color: #666;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 12px 14px;
+    color: #555;
+    font-size: 16px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 4px;
+}
+
+input[type="submit"]{
+    font-size: 24px;
+    width: 100%;
+    color: #555;
+    font-weight: 600;
+    border: 1px solid #666;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 11px 12px;
+    margin-top: 13px;
+}
+
+input[type="submit"]:hover{
+    color: #fff;
+    background: rgb(195, 228, 255);
+}
+
+.login-form .checkbox{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.login-form .checkbox a{
+    cursor: pointer;
+    color: #555;
+}
+
+.login-form  .password{
+    font-size: 14px;
+    color: #555;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.login-form  .password a{
+    color: rgb(195, 228, 255);
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.col-lg-4:hover{
+    box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.col-lg-4:hover{
+    box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.close{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ,url(./img/ZARA\ ETERNAL\ SPRING\ 100ML.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.parfume h1{
+    font-family: lobster, cursive;
+}
+.news{
+    background-color: #afd3e2;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: #afd3e2 ;
+    color:white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news ::placeholder{
+    color: white;
+}
+.news p{
+    margin: 0;
+    font-size: 1rem;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}

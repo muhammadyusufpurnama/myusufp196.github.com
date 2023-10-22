@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-brand:hover{
+  color: black;
+}
+.nav-link{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: uppercase;
+}
+.nav-link:hover{
+  color: black;
+}
+.search{
+  height: 40px;
+  width: 80px;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -15px;
+  font-family: 'Rubik', sans-serif;
+  border: 2px solid #19a7ce;
+}
+.btn0{
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: #19a7ce;
+  color: white;
+  border-radius: 60px;
+  font-weight: 700;
+}
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+  }
+   
+  @media (min-width: 768px) {
+    .news-input {
+      width: 50%;
+    }
+  }
+.navbar{
+    background-color : #f6f1f1;
+}
+.main{
+    background-color : #afd3e2;;
+}
+.main h1{
+    color: aliceblue;
+    font-size:2cm;
+}
+.btn1{
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: #146c94;
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.btn1:hover{
+  background-color: #19a7ce;
+  transition: 0.5s;
+}
+h1{
+  font-weight: 700;
+}
+.news{
+  background-color: #f6f1f1;
+  color: black;
+}
+.btn2{
+  height: 45px;
+  width: 100px;
+  background: #f6f1f1;
+  margin-left: -10px;
+  border: 2px solid white;
+  font-weight: 600;
+}
+.news input{
+  height: 45px;
+  width: 55%;
+  border: 2px solid white;
+  outline: none;
+  background: black ;
+  color:white;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.news ::placeholder{
+  color: white;
+}
+.news p{
+  margin: 0;
+  font-size: 1rem;
+}
+.fab{
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding-right: 5px;
+}
