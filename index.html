@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HANGNAMA CAR</title>
+  </head>
+  <body>
+   <!-- Start Navbar -->
+
+   <nav class="navbar navbar-expand-sm fixed-top">
+    <div class="container" data-aos="zoom-in" id="navbar" style="transition: 0.4s; padding: 30px 10px;">
+        <img id="logo" src ="img/Logo.gif" alt="" width="100px" style="transition: 0.4s;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sub/login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sub/signup.html">Signup</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- End Navbar -->
+<!-- Start main section 1 -->
+<section class="main" data-aos="fade-up" data-aos-duration="3000">
+<div style="margin-top:30px;padding:15px 15px 2500px;" class="container py-5" data-aos="fade-up" data-aos-duration="3000">
+  <div class="row py-5">
+    <div class="col-lg-7 pt-5 text-center", style="width: auto;">
+      <h1 class="pt-4">Explore the latest car collections at Hangnama and find your perfect style.</h1>
+      <br>
+      <button
+    class="btn btn-primary btn-lg" style="line-height: normal;"
+    data-bs-toggle="modal"
+    data-bs-target="#enroll">
+    Go to Fitur</button>
+    </div>
+    </section>
+    </div>
+  </div>
+</div>
+</section> 
+    <section class="p-5">
+      <div class="container" data-aos="fade-up"data-aos-duration="3000">
+        <h2 style="text-align: center;">BRAND</h2>
+        <div class="row text-center g-4">
+          <div class="col-md" style="width: auto;">
+            <div class="card bg-light" style="border-radius: 25px;">
+              <div class="card-body text-center">
+                <img src="img/AlfaRomeoLogo.jpg" alt="" width="100px"><br>
+                <h6>ALFA ROMEO</h6>
+                <a class="btn btn-primary" href="sub/Alfaromeo.html">Open</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md" style="width: auto;">
+            <div class="card bg-light" style="border-radius: 25px;">
+              <div class="card-body text-center" style="padding-top: 31px;">
+                <img src="img/BYDLogo.png" alt="" width="100px"><br><br>
+                <h6>BYD</h6>
+                <a class="btn btn-primary" href="sub/BYD.html">Open</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light" style="border-radius: 25px;">
+              <div class="card-body text-center" style="padding-top: 24px;">
+                <img src="img/CitroenLogo.jpg" alt="" width="100px">
+                <h6>CITROEN</h6>
+                <a class="btn btn-primary" href="sub/Citoren.html">Open</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light" style="padding-top: 24px; border-radius: 25px;">
+              <div class="card-body text-center">
+                <img src="img/CupraLogo.png" alt="" width="100px">
+                <h6>CUPRA</h6>
+                <a class="btn btn-primary" href="sub/Cupra.html">Open</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light" style="border-radius: 25px;">
+              <div class="card-body text-center">
+                <img src="img/DaciaLogo.jpg" alt="" width="100px">
+                <H6>DACIA</H6>
+                <a class="btn btn-primary" href="sub/Dacia.html">Open</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Fitur -->
+    <!-- Keunggulan Hangnama -->
+    <section id="learn" class="p-5">
+      <div class="container"data-aos="fade-up" data-aos-duration="3000">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="img/Logo.gif" style="border-radius: 200px;" class="img-fluid" alt="" width="400px"/>
+          </div>
+          <div class="col-md p-5">
+            <h2>Apa saja keunggulan Hangnama?</h2>
+            <p>
+              1. Menyediakan mobil-mobil berkualitas tinggi yang telah melalui inspeksi menyeluruh dan perawatan berkala.
+            </p>
+            <p>
+              2. Harga bersaing dan opsi pembiayaan
+            </p>
+            <p>
+              3. Memiliki program loyalitas dan garansi.
+            </p>
+            <p>
+              4. Memberikan layanan konsultasi yang menyeluruh.
+            </p>
+            <p>
+              5. Melayani uji coba kendaraan sebelum membeli.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- End Section -->
+    <section id="learn" class="p-5 bg-dark text-light">
+      <div class="container" data-aos="fade-up" data-aos-duration="3000">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>Mengapa harus Hangnama?</h2>
+            <p>
+              Karena kami menawarkan mobil berkualitas tinggi yang telah melalui inspeksi ketat, menyediakan beragam pilihan baik baru maupun bekas dengan harga yang bersaing, memberikan layanan purna jual yang baik, dan menjunjung tinggi transparansi informasi sehingga pengguna dapat mempercayai riwayat kendaraan yang akan anda beli. Tim penjualan yang berpengetahuan dan ramah akan membantu pengguna dalam memilih mobil yang sesuai dengan kebutuhan, dan kami juga sering mengadakan promosi serta menawarkan program loyalitas. Terlebih lagi, kemudahan pembelian online dan kemitraan dengan lembaga keuangan membuat pengalaman pengguna dalam membeli mobil menjadi lebih nyaman dan terjangkau. Dengan semua keunggulan ini, Hangnama menjadi pilihan yang sangat menarik untuk memenuhi kebutuhan para pengguna.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- End Section -->
+  <!-- Start Trending section 3-->
+      <section class="trending">
+        <div class="container py-5" data-aos="fade-up"
+        data-aos-duration="3000">
+          <div class="row py-5">
+            <div class="col-lg-5 m-auto text-center">
+              <h1>What's Trending</h1>
+              <h6 style="color: brown;">Best style of yours</h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 text-center">
+              <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                  <img src="img/GiuliaSaloon.jpg" class="img-fluid" alt="" data-aos="zoom-in-up">
+              </div>
+            </div>
+            <h6>Giulia Saloon</h6>
+            <p>Rp.5.288.000,00/bulan</p>
+            <div class="column">
+              <div style="width: 33.3%; float: left;">
+                <img src="./img/PetrolFuel.png" style="width: 40px;">
+                <h6><small>Petrol <br>Fuel</small></h6>
+              </div>
+              <div style="width: 33.3%; float: left;">
+                <img src="./img/AutomaticGearBox.png" style="width: 40px;">
+                <h6><small> Automatic Gearbox</small></h6>
+              </div>
+              <div style="width: 33.3%; float: left;">
+                <img src="./img/CarPaint.png" style="width: 40px;">
+                <h6><small>Flat Paint</small></h6>
+              </div>
+            </div>
+          </div> 
+            <div class="col-lg-3 text-center">
+              <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                  <img src="./img/C3.jpg" class="img-fluid" alt="" data-aos="zoom-in-up">
+              </div>
+            </div>
+            <h6>Citroen C3</h6>
+            <p>Rp.4.784.000,00/bulan</p>
+            <div class="column">
+              <div style="width: 33.3%; float: left;">
+                <img src="./img/PetrolFuel.png" style="width: 40px;">
+                <h6><small>Petrol <br>Fuel</small></h6>
+              </div>
+              <div style="width: 33.3%; float: left;">
+                <img src="./img/ManualGearbox.png" style="width: 40px;">
+                <h6><small> Manual Gearbox</small></h6>
+              </div>
+              <div style="width: 33.3%; float: left;">
+                <img src="./img/CarPaint.png" style="width: 40px;">
+                <h6><small>Metalic Paint</small></h6>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-3 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img src="./img/Atto3.jpg" class="img-fluid" alt="" data-aos="zoom-in-up">
+            </div>
+          </div>
+          <h6>BYD Atto 3</h6>
+          <p>Rp.6.617.000,00/bulan</p>
+          <div class="column">
+            <div style="width: 33.3%; float: left;">
+              <img src="./img/ElectricFuel.png" style="width: 40px;">
+              <h6><small>Electric <br>Fuel</small></h6>
+            </div>
+            <div style="width: 33.3%; float: left;">
+              <img src="./img/AutomaticGearBox.png" style="width: 40px;">
+              <h6><small> Automatic Gearbox</small></h6>
+            </div>
+            <div style="width: 33.3%; float: left;">
+              <img src="./img/CarPaint.png" style="width: 40px;">
+              <h6><small>Metallic Paint</small></h6>
+            </div>
+          </div>
+        </div> 
+        <div class="col-lg-3 text-center">
+          <div class="card border-0 bg-light mb-2">
+            <div class="card-body">
+              <img src="./img/Leon.jpg" class="img-fluid" alt="" data-aos="zoom-in-up">
+              </div>
+            </div>
+            <h6>Cupra Leon</h6>
+            <p>Rp.6.639.000,00/bulan</p>
+            <div class="column">
+              <div style="width: 33.3%; float: left;">
+                <img src="./img/PetrolFuel.png" style="width: 40px;">
+                <h6><small>Petrol <br>Fuel</small></h6>
+              </div>
+              <div style="width: 33.3%; float: left;">
+                <img src="./img/ManualGearbox.png" style="width: 40px;">
+                <h6><small> Manual Gearbox</small></h6>
+              </div>
+              <div style="width: 33.3%; float: left;">
+                <img src="./img/CarPaint.png" style="width: 40px;">
+                <h6><small>Flat Paint</small></h6>
+              </div>
+            </div>
+          </div> 
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-lg-6 text-center m-auto">
+                <button class="btn1">Click for More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      </section>
+  <!-- End Trending section 3-->
+</nav>
+<section class="about">
+  <div class="container py-5" data-aos="fade-up"
+  data-aos-duration="3000">
+    <div class="row py-5">
+      <div class="col-lg-8 m-auto text-center">
+        <h1> Mitra And Borrowers</h1>
+        <p class="lead text-center text-white mb-5">
+      
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="img/WhatsApp Image 2023-07-22 at 12.34.41.jpeg" class="img-fluid" alt="" data-aos="zoom-out-right">
+          <h5 class="text-center">Mr. Murn, staff company, Indonesia</h5>
+            <p class="text-center">
+              My family was planning a long vacation, decided to rent a car for my trip. I came to the car rental shop and was given a selection of cars that suited my needs. The staff at the shop kindly provided information regarding rates, insurance, and rental terms. 
+              During the vacation trip, the car was very comfortable, and my family felt free to explore the tourist destinations more freely. The process of returning the car also went smoothly, with no unexpected problems or additional costs. This experience made my vacation more enjoyable and stress-free regarding transportation.            </p>
+            <p class="text-center">
+              #Hangnama is always best for your harmony
+            </p>
+            <a class="text-center" href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a class="text-center" href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a class="text-center" href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            <a class="text-center" href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+        </div>
+        <div class="col-lg-4">
+          <img src="img/WhatsApp Image 2023-07-22 at 12.27.10.jpeg" class="img-fluid" alt="" data-aos="zoom-in">
+          <h5 class="text-center">Mr. Joko, Enterpreneur, Indonesia</h5>
+            <p class="text-center">
+              booked a car through Hangnama car rental shop, and the car was ready when he arrived at the destination city. The rental process was quick and seamless, and 
+              the car was very clean and well-maintained. This experience helped the businessman to run the meeting schedule efficiently and give a professional impression to the client.            </p>
+            <p class="text-center">
+              #Hangnama is always best for change your harmony 
+            </p>
+            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a class="text-center" href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a class="text-center" href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            <a class="text-center" href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+        </div>
+        <div class="col-lg-4">
+          <img src="img/WhatsApp Image 2023-07-22 at 12.27.50.jpeg" class="img-fluid" alt="" data-aos="zoom-out-left">
+          <h5 class="text-center">Mr. Trisno, architect, Indonesia</h5>
+            <p class="text-center">
+              I just had an accident and had to get my car repaired, my car was under long-term repair decided to rent a replacement car. When I came to the car rental shop, I felt very stressed due to this unexpected situation. However, the staff at the store greeted it with sympathy and provided 
+              a selection of replacement cars that suited my budget and needs. They explained in detail the rental process, offered additional insurance, and provided any necessary assistance. The experience was helpful and appreciated in my difficult situation.            </p>
+            <p class="text-center">
+              #Hangnama is always best for change your life 
+            </p>
+            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a class="text-center" href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a class="text-center" href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            <a class="text-center" href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+        </div>
+      </div>
+    </div>
+</section>
+    <!-- Question Accordion -->
+    <section id="questions" class="p-5">
+      <div class="container" data-aos="fade-up"data-aos-duration="3000">
+        <h2 class="text-center mb-4">Pertanyaan yang mungkin diajukan</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!-- Pertanyaan 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
+              Apa jenis mobil yang tersedia di toko Anda?
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                <p>
+                  Di toko kami, kami menawarkan berbagai jenis mobil, termasuk mobil sedan, SUV, dan mobil listrik. Kami juga memiliki mobil bekas dengan berbagai merek terkenal.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Pertanyaan 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
+              Apakah mobil-mobil yang dijual di toko Anda memiliki jaminan?
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                <p>
+                  Ya, semua mobil yang kami jual dilengkapi dengan jaminan. Rincian tentang jaminan ini dapat ditemukan pada deskripsi setiap mobil di situs web kami atau dapat dijelaskan oleh salah satu penasihat penjualan kami.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Pertanyaan 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
+              Apakah Anda memiliki program pembiayaan atau penyewaan mobil?
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Kami menawarkan program pembiayaan mobil dengan suku bunga yang bersaing. Selain itu, kami juga memiliki program penyewaan mobil jangka pendek dan jangka panjang.
+              </div>
+            </div>
+          </div>
+          <!-- Pertanyaan 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+              >
+              Apakah saya dapat melakukan uji coba mobil sebelum membelinya?
+              </button>
+            </h2>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+              Ya, Anda bisa melakukan uji coba mobil sebelum membelinya. Kami sangat menganjurkan pelanggan untuk menguji mobil yang mereka minati sebelum membuat keputusan pembelian.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Questions According -->
+    <!-- Start Contact Section -->
+<section class="contact py-5">
+  <div class="container py-5" data-aos="fade-up"data-aos-duration="3000">
+    <div class="row">
+      <div class="col-lg-5 m-auto text-center">
+        <h1>Contact Us</h1>
+      </div> 
+    </div>
+    <div class="row">
+      <div class="col-lg-9 m-auto">
+        <div class="row py-5">
+          <div class="col-lg-4">
+            <h6>LOCATION</h6>
+              <p>Departemen Sistem Informasi<br> Fakultas Teknologi Elektro dan Informatika Cerdas <br>Institut Teknologi Sepuluh Nopember Surabaya</p>
+            <h6>PHONE</h6>
+              <p>+62-812-32655416</p>
+          </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" class="form-control bg-light" placeholder="First Name">
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="form-control bg-light" placeholder="Last Name">
+              </div>
+            </div>
+          </div>
+              <div class="col-lg-12 py-3">
+                  <textarea name="" class="form-control bg-light" placeholder="Description Your Job" id="" cols="30" rows="10"></textarea>
+              </div>
+              <div class="col-lg-6 m-auto text-center">
+                <input type="text" class="form-control bg-light" placeholder="Your Email">
+              </div>
+              <div class="col-lg-10 py-3 m-auto text-center">
+                <textarea name="" class="form-control bg-light" placeholder="Your message" id="" cols="30" rows="10"></textarea>
+            </div> 
+        </div>
+        <div class="col-lg-5 m-auto text-center">
+          <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Submit
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact Section -->
+<!-- Start news section 10-->
+<section class="news py-5">
+    <div class="container" data-aos="fade-up"
+    data-aos-duration="3000">
+      <div class="row">
+        <div class="col-lg-9 m-auto text-center">
+          <h1>Join Our Secret Society</h1>
+          <input type="text" class="px-3" placeholder="Enter Your Email">
+          <button class="btn2">Submit</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-11">
+          <div class="row">
+            <div class="col-lg-3">
+              <h5 class="pb-3">POLICY</h5>
+              <p>Shipping & Returns</p>
+              <p>Term & Conditions</p>
+              <p>Payment Methods</p>
+            </div>
+            <div class="col-lg-3">
+              <h5 class="pb-3">CUSTOMER CARE</h5>
+              <p>About Us</p>
+              <p>Customer Service</p>
+              <p>Contact</p>
+            </div>
+            <div class="col-lg-3">
+              <h5 class="pb-3">MENU</h5>
+              <p>Home</p>
+              <p>Trending</p>
+              <p>About</p>
+              <p>Store</p>
+              <p>Contact</p>
+            </div>
+            <div class="col-lg-3">
+              <h5 class="pb-3">CUSTOMER CARE</h5>
+              <span><i class="fab fa-facebook"></i></span>
+              <span><i class="fab fa-instagram"></i></span>
+              <span><i class="fab fa-twitter"></i></span>
+              <span><i class="fab fa-google-plus"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center">Copyright HANGNAMA CAR since 2023</p>
+    </div>
+  </section>
+<!-- End news section 10-->
+<!-- End News Section -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="enroll"
+      tabindex="-1"
+      aria-labelledby="enrollLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Fill out this form and we will get back to you</p>
+            <form>
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label">
+                  First Name:
+                </label>
+                <input type="text" class="form-control" id="first-name" />
+              </div>
+              <div class="mb-3">
+                <label for="last-name" class="col-form-label">Last Name:</label>
+                <input type="text" class="form-control" id="last-name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">Email:</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="col-form-label">Phone:</label>
+                <input type="tel" class="form-control" id="phone" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+          document.getElementById("navbar").style.padding = "1px 1px";
+          document.getElementById("logo").style.size = "15px";
+        } else {
+          document.getElementById("navbar").style.padding = "30px 10px";
+          document.getElementById("logo").style.size = "15px";
+        }
+      }
+    </script>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
